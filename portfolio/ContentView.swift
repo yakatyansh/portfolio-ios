@@ -11,13 +11,40 @@ struct ContentView: View {
     var body: some View {
         
         ZStack{
-            Color(.blue)
+            Color(.systemMint)
                 .ignoresSafeArea()
-            VStack {
+            VStack(alignment: .leading, spacing: 20.0) {
                 Image("mekmini").resizable().cornerRadius(10).aspectRatio( contentMode: .fit).padding(.all)
-                Text("This is a Mac Mini").font(.largeTitle).fontWeight(.bold)
-                    .foregroundColor(.white)
+                HStack {
+                    
+                    
+                    Text("Mac Mini").font(.largeTitle).fontWeight(.bold)
+                        .multilineTextAlignment(.leading)
+                    
+                    Spacer()
+                    
+                    VStack{
+                        
+                        HStack{
+                            Image(systemName: "star.fill").foregroundColor(.orange)
+                            Image(systemName: "star.fill").foregroundColor(.orange)
+                            Image(systemName: "star.fill").foregroundColor(.orange)
+                            Image(systemName: "star.fill").foregroundColor(.orange)
+                            Image(systemName: "star.leadinghalf.filled")
+                                .foregroundColor(.orange)
+                        }
+                        Text("(Reviews 889)").foregroundColor(.orange)
+                    }
+                }
+                
+                Text("Best compact computer on the market")
+                    .multilineTextAlignment(.leading)
             }
+            .padding()
+            .background(Rectangle().foregroundColor(.white)
+                .cornerRadius(16)
+                .shadow(radius: 16))
+            .padding()
         }
         
     }
