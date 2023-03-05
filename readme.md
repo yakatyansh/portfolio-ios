@@ -6,4 +6,4 @@
 ### Version 0 
 
 
-/var/folders/sl/rg2y_mmn0l7gjdgd30jf8jwm0000gn/T/TemporaryItems/NSIRD_screencaptureui_nmNdKx/Screenshot 2023-03-06 at 1.44.50 AM.png
+<img width="364" alt="Screenshot 2023-03-06 at 1 46 24 AM" src="https://user-images.githubusercontent.com/90173866/222983603-cf8e1f2b-4316-4788-bb29-ce9ccb952990.png">
