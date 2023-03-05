@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371D13DB29B52F56002BFD7A /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 371D13DA29B52F55002BFD7A /* readme.md */; };
 		374FE2D729B499300094FFA5 /* portfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374FE2D629B499300094FFA5 /* portfolioApp.swift */; };
 		374FE2D929B499300094FFA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374FE2D829B499300094FFA5 /* ContentView.swift */; };
 		374FE2DB29B499310094FFA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374FE2DA29B499310094FFA5 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		371D13DA29B52F55002BFD7A /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		374FE2D329B499300094FFA5 /* portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		374FE2D629B499300094FFA5 /* portfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = portfolioApp.swift; sourceTree = "<group>"; };
 		374FE2D829B499300094FFA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		374FE2CA29B499300094FFA5 = {
 			isa = PBXGroup;
 			children = (
+				371D13DA29B52F55002BFD7A /* readme.md */,
 				374FE2D529B499300094FFA5 /* portfolio */,
 				374FE2E629B499310094FFA5 /* portfolioTests */,
 				374FE2F029B499310094FFA5 /* portfolioUITests */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				374FE2DE29B499310094FFA5 /* Preview Assets.xcassets in Resources */,
+				371D13DB29B52F56002BFD7A /* readme.md in Resources */,
 				374FE2DB29B499310094FFA5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
