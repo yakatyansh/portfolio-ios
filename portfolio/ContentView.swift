@@ -9,10 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image("mekmini").resizable().cornerRadius(10).aspectRatio( contentMode: .fit).padding(.all)
-            Text("This is a Mac Mini").font(.largeTitle).fontWeight(.bold)
+        
+        ZStack{
+            Color(.blue)
+                .ignoresSafeArea()
+            VStack {
+                Image("mekmini").resizable().cornerRadius(10).aspectRatio( contentMode: .fit).padding(.all)
+                Text("This is a Mac Mini").font(.largeTitle).fontWeight(.bold)
+                    .foregroundColor(.white)
+            }
         }
+        
     }
 }
 
